@@ -12,5 +12,8 @@
 <p>  </p>
 <a href="{{url('/pay_amount_wep')}}">手机支付0.1元</a>
 <a href="{{url('/wechat_scanning')}}">微信扫码支付</a>
+<a href="{{url('/wechat_h5')}}">微信h5手机支付</a>
+<p><a href="{{url('/union_pay')}}">银联支付</a></p>
+<p><a href="{{url('/union_refund')}}">银联退款</a></p>
 </body>
 </html>

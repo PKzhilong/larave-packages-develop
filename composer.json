@@ -24,11 +24,14 @@
         "classmap": [
             "database/seeds",
             "database/factories",
-            "../packages/lewaijiao-pay/src/Methods/AlipaySDK"
+            "../packages/lewaijiao-pay/src/Methods/AlipaySDK",
+            "../packages/lewaijiao-pay/src/Methods/WechatSDK",
+            "../packages/lewaijiao-pay/src/Methods/UnionpaySDK"
         ],
         "psr-4": {
             "App\\": "app/",
-            "LeWaiJiao\\Src\\": "../packages/lewaijiao-pay/src/"
+            "LeWaiJiao\\Src\\": "../packages/lewaijiao-pay/src/",
+            "Core\\": "../Core/src"
         }
     },
     "autoload-dev": {

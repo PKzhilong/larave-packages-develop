@@ -13,6 +13,9 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         //
-        '/notify_url'
+        '/notify_url',
+        '/union_pay_backUrl',
+        '/union_pay_frontUrl',
+        '/union_refund_backUrl'
     ];
 }
